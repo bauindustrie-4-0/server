@@ -7,8 +7,11 @@ name = "pypi"
 
 [packages]
 
-Flask = "*"
+flask = "*"
 gunicorn = "*"
+flask-sse = "*"
+gevent = "*"
+redis = "*"
 
 
 [dev-packages]
